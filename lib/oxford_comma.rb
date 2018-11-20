@@ -5,5 +5,6 @@ elsif array.count == 2
   array.join(" and ")
 elsif array.count == 3
   array.join(", ")
+else array.join(", ")
 end
 end
